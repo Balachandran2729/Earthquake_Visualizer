@@ -29,10 +29,6 @@ const EarthquakeMarker = ({ earthquake }) => {
       opacity={1}
       fillOpacity={0.8}
       className="animate-pulse" 
-      eventHandlers={{
-        mouseover: (e) => { e.target.openPopup(); },
-        mouseout: (e) => { e.target.closePopup(); },
-      }}
     >
       <Popup>
         <div className="text-gray-800 dark:text-gray-800">
